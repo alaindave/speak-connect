@@ -13,7 +13,7 @@ const s3 = new aws.S3();
 const upload = multer({
 	storage: multerS3({
 		s3,
-		bucket: 'textbook-bucket',
+		bucket: 'speak-app-bucket',
 		acl: 'public-read',
 		metadata: function(req, file, cb) {
 			cb(null, { fieldName: file.fieldname });
