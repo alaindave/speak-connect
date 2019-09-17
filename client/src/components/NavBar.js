@@ -102,13 +102,6 @@ function NavBar(props) {
           <Button color="secondary" className={classes.button}>
             Explore
           </Button>
-        </Link>
-        <Button color="secondary" className={classes.button}>
-          Messages
-        </Button>
-        <Button color="secondary" className={classes.button}>
-          Notifications
-        </Button>
         <Link
           to={{
             pathname: "/create-conversation",
